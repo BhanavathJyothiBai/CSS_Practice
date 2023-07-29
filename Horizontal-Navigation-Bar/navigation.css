@@ -1,0 +1,47 @@
+#nav
+{
+width:100%;
+height:100px;
+background-color:black;
+float:left;
+}
+body
+{
+margin:0px;
+}
+#flex-container
+{
+font-size:30px;
+color:cyan;
+text-transform:uppercase;
+list-style-type:none;
+display:flex;
+justify-content:space-evenly;
+margin-top:30px;
+}
+a
+{
+color:cyan;
+text-decoration:none;
+}
+.flex-items
+{
+padding:10px;
+font-weight:bold;
+}
+.flex-items:hover
+{
+color:hotpink;
+background-color:cyan;
+border-radius:20px;
+}
+a:hover
+{
+ color:hotpink;
+}
+#division
+{
+    position:sticky;
+    top:20px;
+    
+}
